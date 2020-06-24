@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lemondefr-lite"
+version = "0.1.0"
+description = "Les unes du site lemonde.fr en base de données SQLite"
+authors = ["Bonus <bonus+lemondefr-lite@lechogaulois.fr>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+orator = "^0.9.9"
+beautifulsoup4 = "^4.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
